@@ -1201,3 +1201,11 @@ main {
     gap: 1.4rem;
   }
 }
+
+
+@media (max-width: 520px) {
+  .hero-video-bg video,
+  .hero-video-bg-media {
+    object-position: 50% 65%;
+  }
+}
